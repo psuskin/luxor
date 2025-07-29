@@ -4,11 +4,11 @@ import SubHero from "@/components/SubHero";
 import CtaSection from "@/components/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Leistungen | LUXOR Reinigung",
+  title: "Leistungen | LUXOR Glas und Gebäudereinigung",
   description:
     "Entdecken Sie unsere professionellen Reinigungsdienstleistungen. Von der klassischen Treppenhausreinigung bis zur speziellen Bauzwischenreinigung – wir bieten maßgeschneiderte Lösungen.",
   openGraph: {
-    title: "Leistungen | LUXOR Reinigung",
+    title: "Leistungen | LUXOR Glas und Gebäudereinigung",
     description:
       "Entdecken Sie unsere professionellen Reinigungsdienstleistungen. Von der klassischen Treppenhausreinigung bis zur speziellen Bauzwischenreinigung – wir bieten maßgeschneiderte Lösungen.",
     images: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         url: "/og-services.jpg",
         width: 1200,
         height: 630,
-        alt: "LUXOR Reinigung Leistungen",
+        alt: "LUXOR Glas und Gebäudereinigung Leistungen",
       },
     ],
   },
@@ -150,6 +150,58 @@ const services = [
         "Schutz fertiger Bauteile",
         "Staubreduktion",
         "Termingerechte Übergabe",
+      ],
+    },
+  },
+  {
+    title: "Winterdienst",
+    description:
+      "Professioneller Winterdienst für sichere und saubere Wege bei Schnee und Eis. Wir sorgen für rutschfreie und zugängliche Flächen während der Wintermonate.",
+    image: "/images/winter.jpg",
+    features: [
+      "Schneeräumung und -beseitigung",
+      "Streudienst mit umweltfreundlichen Materialien",
+      "Rutschschutzmaßnahmen",
+      "24/7 Verfügbarkeit bei Bedarf",
+    ],
+    details: {
+      process: [
+        "Regelmäßige Wetterbeobachtung",
+        "Proaktive Schneeräumung",
+        "Professionelles Streuen",
+        "Qualitätskontrolle der Wege",
+      ],
+      benefits: [
+        "Erhöhte Sicherheit",
+        "Ununterbrochene Zugänglichkeit",
+        "Umweltfreundliche Methoden",
+        "Zuverlässiger Service",
+      ],
+    },
+  },
+  {
+    title: "Entrümpelung",
+    description:
+      "Professionelle Entrümpelung und Räumung von Wohnungen, Häusern und Gewerberäumen. Wir übernehmen die komplette Organisation und Durchführung.",
+    image: "/images/Entrümpelung.jpg",
+    features: [
+      "Komplette Wohnungsräumung",
+      "Sortierung und Entsorgung",
+      "Transport und Abfuhr",
+      "Dokumentation und Abrechnung",
+    ],
+    details: {
+      process: [
+        "Beratung und Planung",
+        "Systematische Sortierung",
+        "Professionelle Räumung",
+        "Saubere Übergabe",
+      ],
+      benefits: [
+        "Zeit- und stresssparend",
+        "Professionelle Durchführung",
+        "Umweltgerechte Entsorgung",
+        "Vollständige Dokumentation",
       ],
     },
   },

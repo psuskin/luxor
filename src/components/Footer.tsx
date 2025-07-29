@@ -5,7 +5,6 @@ import {
   MapPinIcon,
   EnvelopeIcon,
   PhoneIcon,
-  ClockIcon,
 } from "@heroicons/react/24/outline";
 import { ManageCookiesButton } from "./cookie-consent";
 import Image from "next/image";

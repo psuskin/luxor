@@ -10,6 +10,8 @@ import {
   SparklesIcon as CleaningIcon,
   WrenchScrewdriverIcon,
   BuildingStorefrontIcon,
+  CloudIcon,
+  TruckIcon,
 } from "@heroicons/react/24/outline";
 
 export default function AboutLuxor() {
@@ -48,6 +50,20 @@ export default function AboutLuxor() {
         "Professionelle Reinigung während und nach Bauarbeiten für einen sauberen Übergang zur Nutzung.",
       icon: <BuildingStorefrontIcon className="w-7 h-7" strokeWidth={2} />,
       href: "/leistungen#bauzwischenreinigung",
+    },
+    {
+      title: "Winter-\ndienst",
+      description:
+        "Professioneller Winterdienst für sichere und saubere Wege bei Schnee und Eis. Schneeräumung und Streudienst.",
+      icon: <CloudIcon className="w-7 h-7" strokeWidth={2} />,
+      href: "/leistungen#winterdienst",
+    },
+    {
+      title: "Entrümpelung",
+      description:
+        "Professionelle Entrümpelung und Räumung von Wohnungen, Häusern und Gewerberäumen. Schnell und zuverlässig.",
+      icon: <TruckIcon className="w-7 h-7" strokeWidth={2} />,
+      href: "/leistungen#entruempelung",
     },
   ];
 
