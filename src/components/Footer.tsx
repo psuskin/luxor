@@ -8,6 +8,7 @@ import {
   ClockIcon,
 } from "@heroicons/react/24/outline";
 import { ManageCookiesButton } from "./cookie-consent";
+import Image from "next/image";
 
 type IconProps = React.SVGProps<SVGSVGElement>;
 
@@ -66,11 +67,11 @@ export default function Footer() {
     ],
   };
 
-  const businessHours = [
-    { day: "Montag - Freitag", hours: "08:00 - 18:00" },
-    { day: "Samstag", hours: "09:00 - 14:00" },
-    { day: "Sonntag", hours: "Geschlossen" },
-  ];
+  // const businessHours = [
+  //   { day: "Montag - Freitag", hours: "08:00 - 18:00" },
+  //   { day: "Samstag", hours: "09:00 - 14:00" },
+  //   { day: "Sonntag", hours: "Geschlossen" },
+  // ];
 
   return (
     <footer className="bg-gradient-to-b from-white to-gray-50">
@@ -78,9 +79,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center">
-              <h2 className="text-2xl font-bold tracking-tight text-blue-950">
-                LUXOR
-              </h2>
+              <Image
+                src="/luxorLogo.png"
+                alt="LUXOR Glas und Gebäudereinigung"
+                width={120}
+                height={100}
+              />
             </div>
             <p className="text-gray-600">
               Professionelle Reinigungsdienstleistungen mit über 10 Jahren
@@ -146,8 +150,8 @@ export default function Footer() {
                 <div className="flex gap-3 text-gray-600">
                   <MapPinIcon className="h-5 w-5 flex-shrink-0 text-blue-600" />
                   <div>
-                    <p>LUXOR Reinigung</p>
-                    <p>Ahmed Ammar</p>
+                    <p>LUXOR Glas und Gebäudereinigung</p>
+                    <p>Herr Ammar</p>
                     <p>Am Dornbusch 16</p>
                     <p>25337 Elmshorn</p>
                   </div>
@@ -155,23 +159,23 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="tel:+4901236789900"
+                  href="tel:+4915730162305"
                   className="flex gap-3 text-gray-600 hover:text-blue-600 transition-colors"
                 >
                   <PhoneIcon className="h-5 w-5 flex-shrink-0 text-blue-600" />
-                  (+49) 0123 6789 900
+                  (+49) 157 30162305
                 </Link>
               </li>
               <li>
                 <Link
-                  href="mailto:info@luxor-cleaning.de"
+                  href="mailto:info@luxor-reinigung.de"
                   className="flex gap-3 text-gray-600 hover:text-blue-600 transition-colors"
                 >
                   <EnvelopeIcon className="h-5 w-5 flex-shrink-0 text-blue-600" />
-                  info@luxor-cleaning.de
+                  info@luxor-reinigung.de
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <div className="flex gap-3 text-gray-600">
                   <ClockIcon className="h-5 w-5 flex-shrink-0 text-blue-600" />
                   <div>
@@ -183,7 +187,7 @@ export default function Footer() {
                     ))}
                   </div>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -191,8 +195,8 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-sm text-gray-500">
-              © {new Date().getFullYear()} LUXOR Reinigung. Alle Rechte
-              vorbehalten. | Steuernummer: 31/001/1492
+              © {new Date().getFullYear()} LUXOR Glas und Gebäudereinigung. Alle
+              Rechte vorbehalten. | Steuernummer: 31/001/1492
             </div>
             <div className="flex flex-wrap justify-center gap-6">
               {navigation.legal.map((item) => (

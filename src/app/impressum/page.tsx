@@ -2,13 +2,13 @@ import { Metadata } from "next";
 import SubHero from "@/components/SubHero";
 
 export const metadata: Metadata = {
-  title: "Impressum | LUXOR Reinigung",
+  title: "Impressum | LUXOR Glas und Gebäudereinigung",
   description:
-    "Rechtliche Informationen über LUXOR Reinigung, Kontaktdaten und Verantwortlichkeiten.",
+    "Rechtliche Informationen über LUXOR Glas und Gebäudereinigung, Kontaktdaten und Verantwortlichkeiten.",
   openGraph: {
-    title: "Impressum | LUXOR Reinigung",
+    title: "Impressum | LUXOR Glas und Gebäudereinigung",
     description:
-      "Rechtliche Informationen über LUXOR Reinigung, Kontaktdaten und Verantwortlichkeiten.",
+      "Rechtliche Informationen über LUXOR Glas und Gebäudereinigung, Kontaktdaten und Verantwortlichkeiten.",
   },
 };
 
@@ -26,9 +26,9 @@ export default function ImpressumPage() {
             <div className="prose prose-lg max-w-none">
               <h2>Angaben gemäß § 5 TMG</h2>
               <p>
-                LUXOR Reinigung
+                LUXOR Glas und Gebäudereinigung
                 <br />
-                Ahmed Ammar
+                Herr Ammar
                 <br />
                 Am Dornbusch 16
                 <br />
@@ -37,7 +37,7 @@ export default function ImpressumPage() {
 
               <h2>Kontakt</h2>
               <p>
-                Telefon: +49 (0) 123 456 789
+                Telefon: +49 157 30162305
                 <br />
                 E-Mail: info@luxor-reinigung.de
               </p>
@@ -47,7 +47,7 @@ export default function ImpressumPage() {
 
               <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
               <p>
-                Ahmed Ammar
+                Herr Ammar
                 <br />
                 Am Dornbusch 16
                 <br />

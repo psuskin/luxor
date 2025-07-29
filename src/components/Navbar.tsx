@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,17 +37,18 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed md:absolute top-0 left-0 right-0 z-40 transition-all duration-300 ${
-        scrolled
-          ? "bg-blue-950/90 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+        scrolled ? "bg-white backdrop-blur-md shadow-lg" : "bg-white"
       }`}
     >
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="relative group z-50">
-            <span className={`text-2xl font-light tracking-wider text-white`}>
-              LUXOR
-            </span>
+            <Image
+              src="/luxorLogo.png"
+              alt="LUXOR Glas und Gebäudereinigung"
+              width={120}
+              height={120}
+            />
           </Link>
 
           <div className="hidden md:flex items-center space-x-12">
@@ -57,7 +59,7 @@ export default function Navbar() {
           </div>
 
           <button
-            className={`md:hidden w-10 h-10 flex items-center justify-center text-white z-50 ${
+            className={`md:hidden w-10 h-10 flex items-center justify-center text-blue-950 z-50 ${
               isMenuOpen ? "fixed right-6" : "relative"
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -67,17 +69,17 @@ export default function Navbar() {
               <span
                 className={`absolute left-0 top-0 w-full h-0.5 transform transition-all duration-300 ease-in-out ${
                   isMenuOpen ? "rotate-45 top-2" : ""
-                } bg-white`}
+                } bg-blue-950`}
               />
               <span
                 className={`absolute left-0 top-2 w-full h-0.5 transition-all duration-200 ${
                   isMenuOpen ? "opacity-0" : "opacity-100"
-                } bg-white`}
+                } bg-blue-950`}
               />
               <span
                 className={`absolute left-0 bottom-0 w-full h-0.5 transform transition-all duration-300 ease-in-out ${
                   isMenuOpen ? "-rotate-45 bottom-2" : ""
-                } bg-white`}
+                } bg-blue-950`}
               />
             </div>
           </button>
@@ -143,7 +145,7 @@ function NavLink({
     return (
       <Link
         href={href}
-        className={`relative group px-5 py-2 text-sm font-medium transition-colors duration-300 bg-white/10 text-white hover:bg-white/20 rounded-full`}
+        className={`relative group px-5 py-2 text-sm font-medium transition-colors duration-300 bg-blue-600 text-white hover:bg-blue-700 rounded-full`}
       >
         <span className="relative z-10">{label}</span>
       </Link>
@@ -153,12 +155,12 @@ function NavLink({
   return (
     <Link href={href} className="relative group">
       <span
-        className={`text-sm font-medium transition-colors duration-200 text-white/90 hover:text-white`}
+        className={`text-sm font-medium transition-colors duration-200 text-blue-950/90 hover:text-blue-950`}
       >
         {label}
       </span>
       <span
-        className={`absolute -bottom-1 left-1/2 -translate-x-1/2 w-0 h-px transition-all duration-300 group-hover:w-full bg-white`}
+        className={`absolute -bottom-1 left-1/2 -translate-x-1/2 w-0 h-px transition-all duration-300 group-hover:w-full bg-blue-950`}
       />
     </Link>
   );

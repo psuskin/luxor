@@ -2,13 +2,13 @@ import { Metadata } from "next";
 import SubHero from "@/components/SubHero";
 
 export const metadata: Metadata = {
-  title: "Datenschutz | LUXOR Reinigung",
+  title: "Datenschutz | LUXOR Glas und Gebäudereinigung",
   description:
-    "Datenschutzerklärung der LUXOR Reinigung. Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
+    "Datenschutzerklärung der LUXOR Glas und Gebäudereinigung. Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
   openGraph: {
-    title: "Datenschutz | LUXOR Reinigung",
+    title: "Datenschutz | LUXOR Glas und Gebäudereinigung",
     description:
-      "Datenschutzerklärung der LUXOR Reinigung. Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
+      "Datenschutzerklärung der LUXOR Glas und Gebäudereinigung. Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
   },
 };
 
@@ -118,16 +118,16 @@ export default function DatenschutzPage() {
                 Website ist:
               </p>
               <p>
-                LUXOR Reinigung
+                LUXOR Glas und Gebäudereinigung
                 <br />
-                Ahmed Ammar
+                Herr Ammar
                 <br />
                 Am Dornbusch 16
                 <br />
                 25337 Elmshorn
                 <br />
                 <br />
-                Telefon: +49 (0) 123 456 789
+                Telefon: +49 157 30162305
                 <br />
                 E-Mail: info@luxor-reinigung.de
               </p>
@@ -184,8 +184,8 @@ export default function DatenschutzPage() {
                 oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine
                 SSL-bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung
                 erkennen Sie daran, dass die Adresszeile des Browsers von
-                &quot;http://&quot; auf &quot;https://&quot; wechselt und an
-                dem Schloss-Symbol in Ihrer Browserzeile.
+                &quot;http://&quot; auf &quot;https://&quot; wechselt und an dem
+                Schloss-Symbol in Ihrer Browserzeile.
               </p>
               <p>
                 Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die

@@ -6,7 +6,7 @@ const sections = [
   {
     title: "Standort",
     items: [
-      "LUXOR Reinigung",
+      "LUXOR Glas und Gebäudereinigung",
       "Am Dornbusch 16",
       "25337 Elmshorn",
       "Deutschland",
@@ -22,11 +22,11 @@ const sections = [
   },
   {
     title: "Kontakt",
-    items: ["+49 (0) 123 456 789", "info@luxor-reinigung.de"],
+    items: ["+49 157 30162305", "info@luxor-reinigung.de"],
   },
   {
     title: "Unternehmen",
-    items: ["Inhaber: Ahmed Ammar", "Steuernummer: 31/001/1492"],
+    items: ["Inhaber: Herr Ammar", "Steuernummer: 31/001/1492"],
   },
   {
     title: "Social Media",

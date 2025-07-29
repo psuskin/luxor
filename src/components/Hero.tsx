@@ -1,10 +1,26 @@
 // components/Hero.tsx
 "use client";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Button from "./ui/Button";
+import { useState, useEffect } from "react";
 
 export default function Hero() {
+  const [currentName, setCurrentName] = useState(0);
+
+  // Alternate between short and full company name every 4 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentName((prev) => (prev + 1) % 2);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const companyNames = ["GLAS", "GEBÄUDEREINIGUNG"];
+
+  const currentCompanyName = companyNames[currentName];
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Full Background Image */}
@@ -23,7 +39,7 @@ export default function Hero() {
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-6 lg:px-12 w-full">
-        <div className="max-w-4xl">
+        <div className="max-w-6xl">
           {/* Brand Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -46,7 +62,7 @@ export default function Hero() {
                 animate="visible"
               >
                 <motion.span
-                  className="block"
+                  className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
                   variants={{
                     hidden: { opacity: 0, y: 100 },
                     visible: { opacity: 1, y: 0 },
@@ -59,20 +75,21 @@ export default function Hero() {
                 >
                   LUXOR
                 </motion.span>
-                <motion.span
-                  className="block text-transparent bg-clip-text bg-gradient-to-r from-[#2563eb] to-[#1d4ed8] drop-shadow-sm text-5xl sm:text-6xl md:text-8xl lg:text-9xl"
-                  variants={{
-                    hidden: { opacity: 0, y: 100 },
-                    visible: { opacity: 1, y: 0 },
-                  }}
-                  transition={{
-                    duration: 0.8,
-                    delay: 0.7,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
-                >
-                  REINIGUNG
-                </motion.span>
+                <AnimatePresence mode="wait">
+                  <motion.span
+                    key={currentName}
+                    className="block text-transparent bg-clip-text bg-gradient-to-r from-[#2563eb] to-[#1d4ed8] drop-shadow-sm text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{
+                      duration: 0.8,
+                      ease: [0.22, 1, 0.36, 1],
+                    }}
+                  >
+                    {currentCompanyName}
+                  </motion.span>
+                </AnimatePresence>
               </motion.h1>
             </div>
             <motion.p
