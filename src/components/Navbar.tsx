@@ -92,13 +92,13 @@ export default function Navbar() {
               animate={{ opacity: 1, height: "100vh" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="fixed inset-0 top-0 left-0 w-full bg-gradient-to-b from-blue-950 to-blue-900 z-30 md:hidden flex flex-col"
+              className="fixed inset-0 top-0 left-0 w-full bg-white z-30 md:hidden flex flex-col"
             >
               <div className="h-20" /> {/* Spacer for navbar */}
               <div className="flex-1 flex flex-col justify-center items-center px-6 overflow-hidden">
                 {/* Background Pattern */}
                 <div className="absolute inset-0 opacity-5">
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,_rgb(255,255,255)_1px,_transparent_0)] bg-[length:20px_20px]" />
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,_rgb(0,0,0)_1px,_transparent_0)] bg-[length:20px_20px]" />
                 </div>
 
                 <div className="w-full max-w-md mx-auto relative z-50">
@@ -179,7 +179,7 @@ function MobileNavLink({
     <Link
       href={href}
       onClick={onClick}
-      className="block w-full text-center py-4 text-2xl font-light text-white hover:text-blue-300 transition-colors duration-300"
+      className="block w-full text-center py-4 text-2xl font-light text-blue-950 hover:text-blue-600 transition-colors duration-300"
     >
       {label}
     </Link>
