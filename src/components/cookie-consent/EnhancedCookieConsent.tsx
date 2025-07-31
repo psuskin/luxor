@@ -99,14 +99,14 @@ export default function EnhancedCookieConsent({
                   <div className="flex flex-col sm:flex-row gap-3">
                     <Button
                       onClick={handleOpenSettings}
-                      variant="secondary"
+                      variant="primary"
                       className="whitespace-nowrap"
                     >
                       Einstellungen
                     </Button>
                     <Button
                       onClick={handleAcceptNecessary}
-                      variant="secondary"
+                      variant="primary"
                       className="whitespace-nowrap"
                     >
                       Nur notwendige

@@ -153,10 +153,10 @@ export default function CookieSettingsModal({
 
           {/* Footer */}
           <div className="p-6 border-t border-gray-200 flex flex-col sm:flex-row justify-end gap-3">
-            <Button onClick={onClose} variant="secondary">
+            <Button onClick={onClose} variant="primary">
               Abbrechen
             </Button>
-            <Button onClick={handleSave} variant="secondary">
+            <Button onClick={handleSave} variant="primary">
               Auswahl speichern
             </Button>
             <Button onClick={handleAcceptAll} variant="primary">
