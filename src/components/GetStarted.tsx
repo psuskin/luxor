@@ -69,11 +69,11 @@ export default function GetStarted() {
               Brauchen Sie Hilfe?
             </span>
             <a
-              href="tel:+4930123456789"
+              href="tel:+4915730162305"
               className="inline-flex items-center gap-1 sm:gap-2 text-white text-lg sm:text-xl font-medium hover:text-brand-primary transition-colors"
             >
               <PhoneIcon className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span className="whitespace-nowrap">(+49) 30 1234 5678</span>
+              <span className="whitespace-nowrap">+49 157 30162305</span>
             </a>
           </div>
         </div>
