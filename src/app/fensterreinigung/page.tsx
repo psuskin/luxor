@@ -12,11 +12,11 @@ import {
 } from "@heroicons/react/24/outline";
 
 export const metadata: Metadata = {
-  title: "Fensterreinigung | LUXOR Reinigung",
+  title: "Fensterreinigung | GlanzPro Service",
   description:
     "Professionelle Fensterreinigung für Privat- und Geschäftskunden. Streifenfreie Sauberkeit und kristallklare Durchsicht für alle Glasflächen.",
   openGraph: {
-    title: "Fensterreinigung | LUXOR Reinigung",
+    title: "Fensterreinigung | GlanzPro Service",
     description:
       "Professionelle Fensterreinigung für Privat- und Geschäftskunden. Streifenfreie Sauberkeit und kristallklare Durchsicht für alle Glasflächen.",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         url: "/og-fensterreinigung.jpg",
         width: 1200,
         height: 630,
-        alt: "LUXOR Fensterreinigung",
+        alt: "GlanzPro Service Fensterreinigung",
       },
     ],
   },

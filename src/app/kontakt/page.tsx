@@ -5,19 +5,19 @@ import QuestionsSection from "@/components/QuestionsSection";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Kontakt | LUXOR Glas und Gebäudereinigung",
+  title: "Kontakt | GlanzPro Service",
   description:
-    "Kontaktieren Sie LUXOR Glas und Gebäudereinigung für professionelle Reinigungsdienstleistungen in Elmshorn. Wir sind für Sie da und beraten Sie gerne zu allen Reinigungsfragen.",
+    "Kontaktieren Sie GlanzPro Service für professionelle Reinigungsdienstleistungen in Elmshorn. Wir sind für Sie da und beraten Sie gerne zu allen Reinigungsfragen.",
   openGraph: {
-    title: "Kontakt | LUXOR Glas und Gebäudereinigung",
+    title: "Kontakt | GlanzPro Service",
     description:
-      "Kontaktieren Sie LUXOR Glas und Gebäudereinigung für professionelle Reinigungsdienstleistungen in Elmshorn. Wir sind für Sie da und beraten Sie gerne zu allen Reinigungsfragen.",
+      "Kontaktieren Sie GlanzPro Service für professionelle Reinigungsdienstleistungen in Elmshorn. Wir sind für Sie da und beraten Sie gerne zu allen Reinigungsfragen.",
     images: [
       {
         url: "/og-contact.jpg",
         width: 1200,
         height: 630,
-        alt: "LUXOR Glas und Gebäudereinigung Kontakt",
+        alt: "GlanzPro Service Kontakt",
       },
     ],
   },
@@ -82,7 +82,7 @@ export default function KontaktPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="LUXOR Glas und Gebäudereinigung Standort"
+              title="GlanzPro Service Standort"
               className="absolute inset-0"
             ></iframe>
           </div>

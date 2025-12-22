@@ -2,13 +2,13 @@ import { Metadata } from "next";
 import SubHero from "@/components/SubHero";
 
 export const metadata: Metadata = {
-  title: "Impressum | LUXOR Glas und Gebäudereinigung",
+  title: "Impressum | GlanzPro Service",
   description:
-    "Rechtliche Informationen über LUXOR Glas und Gebäudereinigung, Kontaktdaten und Verantwortlichkeiten.",
+    "Rechtliche Informationen über GlanzPro Service, Kontaktdaten und Verantwortlichkeiten.",
   openGraph: {
-    title: "Impressum | LUXOR Glas und Gebäudereinigung",
+    title: "Impressum | GlanzPro Service",
     description:
-      "Rechtliche Informationen über LUXOR Glas und Gebäudereinigung, Kontaktdaten und Verantwortlichkeiten.",
+      "Rechtliche Informationen über GlanzPro Service, Kontaktdaten und Verantwortlichkeiten.",
   },
 };
 
@@ -39,7 +39,7 @@ export default function ImpressumPage() {
               <p>
                 Telefon: +49 157 30162305
                 <br />
-                E-Mail: info@luxor-reinigung.de
+                E-Mail: info@glanzproservice.online
               </p>
 
               <h2>Steuernummer</h2>

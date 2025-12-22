@@ -75,7 +75,7 @@ export default function WindowCleaning() {
           <div className="relative z-10 order-1">
             <div className="max-w-xl">
               <span className="inline-block text-[#93c5fd] text-sm font-medium tracking-wider uppercase mb-6">
-                Warum LUXOR wählen
+                Warum Glanzpro Service wählen
               </span>
 
               <div className="space-y-4 mb-12">
@@ -103,7 +103,7 @@ export default function WindowCleaning() {
               </div>
 
               <p className="text-white/80 text-lg leading-relaxed mb-12 max-w-lg">
-                Bei LUXOR steht Qualität an erster Stelle. Unser Engagement für
+                Bei GlanzPro Service steht Qualität an erster Stelle. Unser Engagement für
                 erstklassige Reinigungsdienstleistungen basiert auf jahrelanger
                 Erfahrung.
               </p>
@@ -139,7 +139,7 @@ export default function WindowCleaning() {
               <div className="relative rounded-[2rem] overflow-hidden aspect-[4/3]">
                 <Image
                   src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&auto=format&fit=crop&q=80"
-                  alt="LUXOR Professional Cleaning"
+                  alt="GlanzPro Service Professional Cleaning"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"

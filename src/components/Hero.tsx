@@ -73,7 +73,7 @@ export default function Hero() {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
-                  LUXOR
+                  GlanzPro Service
                 </motion.span>
                 <AnimatePresence mode="wait">
                   <motion.span

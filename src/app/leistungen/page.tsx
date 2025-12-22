@@ -4,11 +4,11 @@ import SubHero from "@/components/SubHero";
 import CtaSection from "@/components/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Leistungen | LUXOR Glas und Gebäudereinigung",
+  title: "Leistungen | GlanzPro Service",
   description:
     "Entdecken Sie unsere professionellen Reinigungsdienstleistungen. Von der klassischen Treppenhausreinigung bis zur speziellen Bauzwischenreinigung – wir bieten maßgeschneiderte Lösungen.",
   openGraph: {
-    title: "Leistungen | LUXOR Glas und Gebäudereinigung",
+    title: "Leistungen | GlanzPro Service",
     description:
       "Entdecken Sie unsere professionellen Reinigungsdienstleistungen. Von der klassischen Treppenhausreinigung bis zur speziellen Bauzwischenreinigung – wir bieten maßgeschneiderte Lösungen.",
     images: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         url: "/og-services.jpg",
         width: 1200,
         height: 630,
-        alt: "LUXOR Glas und Gebäudereinigung Leistungen",
+        alt: "GlanzPro Service Leistungen",
       },
     ],
   },

@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LUXOR Reinigung | Professionelle Reinigungsdienstleistungen",
+  title: "GlanzPro Service | Professionelle Reinigungsdienstleistungen",
   description:
-    "LUXOR Reinigung bietet professionelle Reinigungsdienstleistungen für Privat- und Geschäftskunden. Fensterreinigung, Treppenhausreinigung und mehr.",
-  metadataBase: new URL("https://luxor-reinigung.de"),
+    "GlanzPro Service bietet professionelle Reinigungsdienstleistungen für Privat- und Geschäftskunden. Fensterreinigung, Treppenhausreinigung und mehr.",
+  metadataBase: new URL("https://glanzproservice.online"),
 };
 
 export default function RootLayout({

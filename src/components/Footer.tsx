@@ -80,7 +80,7 @@ export default function Footer() {
             <div className="flex items-center">
               <Image
                 src="/luxorLogo.png"
-                alt="LUXOR Glas und Gebäudereinigung"
+                alt="GlanzPro Service Logo"
                 width={120}
                 height={100}
               />
@@ -167,11 +167,11 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="mailto:info@luxor-reinigung.de"
+                  href="mailto:info@glanzproservice.online"
                   className="flex gap-3 text-gray-600 hover:text-blue-600 transition-colors"
                 >
                   <EnvelopeIcon className="h-5 w-5 flex-shrink-0 text-blue-600" />
-                  info@luxor-reinigung.de
+                  info@glanzproservice.online
                 </Link>
               </li>
               {/* <li>

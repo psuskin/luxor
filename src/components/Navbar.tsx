@@ -45,7 +45,7 @@ export default function Navbar() {
           <Link href="/" className="relative group z-50">
             <Image
               src="/luxorLogo.png"
-              alt="LUXOR Glas und Gebäudereinigung"
+              alt="GlanzPro Service Logo"
               width={120}
               height={120}
             />

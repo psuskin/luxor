@@ -2,13 +2,13 @@ import { Metadata } from "next";
 import SubHero from "@/components/SubHero";
 
 export const metadata: Metadata = {
-  title: "Datenschutz | LUXOR Glas und Gebäudereinigung",
+  title: "Datenschutz | GlanzPro Service",
   description:
-    "Datenschutzerklärung der LUXOR Glas und Gebäudereinigung. Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
+    "Datenschutzerklärung des GlanzPro Service. Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
   openGraph: {
-    title: "Datenschutz | LUXOR Glas und Gebäudereinigung",
+    title: "Datenschutz | GlanzPro Service",
     description:
-      "Datenschutzerklärung der LUXOR Glas und Gebäudereinigung. Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
+      "Datenschutzerklärung des GlanzPro Service. Informationen zur Verarbeitung Ihrer personenbezogenen Daten.",
   },
 };
 
@@ -129,7 +129,7 @@ export default function DatenschutzPage() {
                 <br />
                 Telefon: +49 157 30162305
                 <br />
-                E-Mail: info@luxor-reinigung.de
+                E-Mail: info@glanzproservice.online
               </p>
               <p>
                 Verantwortliche Stelle ist die natürliche oder juristische

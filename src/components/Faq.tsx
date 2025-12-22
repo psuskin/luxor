@@ -44,7 +44,7 @@ export default function Faq() {
       question: "Sind Ihre Reinigungsprodukte umweltfreundlich?",
       answer: (
         <div className="space-y-4">
-          <p>Ja, bei LUXOR legen wir großen Wert auf Nachhaltigkeit:</p>
+          <p>Ja, bei Glanzpro legen wir großen Wert auf Nachhaltigkeit:</p>
           <ul className="space-y-2 text-gray-600">
             <li className="flex items-center gap-3">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-600" />

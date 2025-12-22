@@ -22,7 +22,7 @@ const sections = [
   },
   {
     title: "Kontakt",
-    items: ["+49 157 30162305", "info@luxor-reinigung.de"],
+    items: ["+49 157 30162305", "info@glanzproservice.online"],
   },
   {
     title: "Unternehmen",
