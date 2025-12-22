@@ -149,7 +149,7 @@ export default function Footer() {
                 <div className="flex gap-3 text-gray-600">
                   <MapPinIcon className="h-5 w-5 flex-shrink-0 text-blue-600" />
                   <div>
-                    <p>LUXOR Glas und Gebäudereinigung</p>
+                    <p>GlanzPro Service</p>
                     <p>Herr Ammar</p>
                     <p>Am Dornbusch 16</p>
                     <p>25337 Elmshorn</p>
