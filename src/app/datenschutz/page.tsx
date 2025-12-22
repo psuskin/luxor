@@ -118,7 +118,7 @@ export default function DatenschutzPage() {
                 Website ist:
               </p>
               <p>
-                LUXOR Glas und Gebäudereinigung
+                GlanzPro Service
                 <br />
                 Herr Ammar
                 <br />
