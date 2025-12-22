@@ -6,7 +6,7 @@ const sections = [
   {
     title: "Standort",
     items: [
-      "LUXOR Glas und Gebäudereinigung",
+      "GlanzPro Service",
       "Am Dornbusch 16",
       "25337 Elmshorn",
       "Deutschland",
