@@ -26,7 +26,7 @@ export default function ImpressumPage() {
             <div className="prose prose-lg max-w-none">
               <h2>Angaben gemäß § 5 TMG</h2>
               <p>
-                LUXOR Glas und Gebäudereinigung
+                GlanzPro Service
                 <br />
                 Herr Ammar
                 <br />
