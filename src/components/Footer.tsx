@@ -194,7 +194,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-sm text-gray-500">
-              © {new Date().getFullYear()} LUXOR Glas und Gebäudereinigung. Alle
+              © {new Date().getFullYear()} GlanzPro Service. Alle
               Rechte vorbehalten. | Steuernummer: 31/001/1492
             </div>
             <div className="flex flex-wrap justify-center gap-6">
